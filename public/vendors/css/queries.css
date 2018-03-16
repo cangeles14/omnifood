@@ -1,0 +1,58 @@
+
+
+/* Large screens 1200, pixel row = 1140*/
+
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    margin-left: -40%;
+    color: white;
+    text-transform: uppercase;
+      padding: 0 2%;
+}  
+    .row {
+        padding: 0 2%;
+    }
+}
+
+
+
+
+
+/* Small screens/Big lablets from 768 to 1023 px */
+
+@media only screen and (max-width: 1023px) {
+    
+}
+
+
+
+
+/* Tablets from 481 to 767 px */
+
+@media only screen and (max-width: 767px) {
+    
+}
+
+
+
+
+
+/* Small Phones from 0 to 480 px */
+
+@media only screen and (max-width: 480px) {
+    .main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 0;
+    margin-top: 5%;
+}
+}
